@@ -17,7 +17,7 @@ const ProductCard = ({
 }: ProductCardProps) => {
   return <div className="group relative bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-[#f8f9fa]">
       <div className="aspect-w-4 aspect-h-3 bg-gray-200 overflow-hidden">
-        <img src={product.image} alt={product.name} className="w-full h-64 object-cover object-center transform group-hover:scale-105 transition-transform duration-500" />
+        <img src={product.image} alt={product.name} className="w-full h-80 object-cover object-center transform group-hover:scale-105 transition-transform duration-500" />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-serif text-[#343a40] mb-2">

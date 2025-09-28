@@ -3,8 +3,8 @@ import Button from './ui/Button';
 const Hero = () => {
   return <section id="home" className="relative w-full min-h-[85vh] flex items-center overflow-hidden">
       {/* Background image */}
-        <div className="bg-hero">
-          <video autoPlay muted loop playsInline>
+        <div className="bg-hero h-dvh w-full">
+          <video autoPlay muted loop playsInline className='h-dvh w-full object-cover'>
             <source src="/assets/videos/bg-hero.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
