@@ -7,7 +7,7 @@ import ReviewsSection from './components/ReviewsSection';
 import BlogSection from './components/BlogSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
-import '/assets/css/style.css';
+import '/public/assets/css/style.css';
 import PricingSection from './components/PricingSection';
 import GiftSetsSection from './components/GiftSetsSection';
 export function App() {

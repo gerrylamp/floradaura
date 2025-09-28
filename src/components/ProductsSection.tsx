@@ -35,7 +35,7 @@ const ProductsSection = () => {
       name: "Valentines Crystal Ball",
       description: "Hand-crafted crystal ball with 3D floral design inside.",
       price: 129.99,
-      image: "/assets/images/crystalball-valentines.jpg",
+      image: "/public/assets/images/crystalball-valentines.jpg",
       category: "crystals",
     },
     {
@@ -54,7 +54,7 @@ const ProductsSection = () => {
       description:
         "Crystal ball with intricate constellation designs and subtle glow.",
       price: 129.99,
-      image: "/assets/images/crystalball-anniversary.jpg",
+      image: "/public/assets/images/crystalball-anniversary.jpg",
       category: "crystals",
     },
     {
@@ -72,7 +72,7 @@ const ProductsSection = () => {
       name: "Mystic Flower Crystal",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-flower.jpg",
+      image: "/public/assets/images/crystalball-flower.jpg",
       category: "crystals",
     },
     {
@@ -80,7 +80,7 @@ const ProductsSection = () => {
       name: "Creative Carnation Rose Soap Flower Bouquet",
       description: "Beautiful soap flower bouquet with carnations and roses.",
       price: 1499.99,
-      image: "/assets/images/flower1.jpg",
+      image: "/public/assets/images/flower1.jpg",
       category: "bouquets",
     },
     {
@@ -88,7 +88,7 @@ const ProductsSection = () => {
       name: "Graduation Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-graduation.jpg",
+      image: "/public/assets/images/crystalball-graduation.jpg",
       category: "crystals",
     },
     {
@@ -96,7 +96,7 @@ const ProductsSection = () => {
       name: "Eternal Flower Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1699.99,
-      image: "/assets/images/flower2.jpg",
+      image: "/public/assets/images/flower2.jpg",
       category: "bouquets",
     },
     {
@@ -104,7 +104,7 @@ const ProductsSection = () => {
       name: "Graduation Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-cat.jpg",
+      image: "/public/assets/images/crystalball-cat.jpg",
       category: "crystals",
     },
     {
@@ -112,7 +112,7 @@ const ProductsSection = () => {
       name: "Red Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1799.99,
-      image: "/assets/images/flower3.jpg",
+      image: "/public/assets/images/flower3.jpg",
       category: "bouquets",
     },
     {
@@ -120,7 +120,7 @@ const ProductsSection = () => {
       name: "Dog Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-dog.jpg",
+      image: "/public/assets/images/crystalball-dog.jpg",
       category: "crystals",
     },
     {
@@ -128,7 +128,7 @@ const ProductsSection = () => {
       name: "Satin Ribbon Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1899.99,
-      image: "/assets/images/flower5.jpg",
+      image: "/public/assets/images/flower5.jpg",
       category: "bouquets",
     },
     {
@@ -136,7 +136,7 @@ const ProductsSection = () => {
       name: "Dress Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-dress.jpg",
+      image: "/public/assets/images/crystalball-dress.jpg",
       category: "crystals",
     },
     {
@@ -144,7 +144,7 @@ const ProductsSection = () => {
       name: "Pink Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1299.99,
-      image: "/assets/images/flower6.jpg",
+      image: "/public/assets/images/flower6.jpg",
       category: "bouquets",
     },
     {
@@ -152,7 +152,7 @@ const ProductsSection = () => {
       name: "Heart Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-heart.jpg",
+      image: "/public/assets/images/crystalball-heart.jpg",
       category: "crystals",
     },
     {
@@ -160,7 +160,7 @@ const ProductsSection = () => {
       name: "Satin Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1299.99,
-      image: "/assets/images/flower7.jpg",
+      image: "/public/assets/images/flower7.jpg",
       category: "bouquets",
     },
     {
@@ -168,7 +168,7 @@ const ProductsSection = () => {
       name: "Moon Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-moon.jpg",
+      image: "/public/assets/images/crystalball-moon.jpg",
       category: "crystals",
     },
     {
@@ -176,7 +176,7 @@ const ProductsSection = () => {
       name: "Pink Gerbera Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1499.99,
-      image: "/assets/images/flower8.jpg",
+      image: "/public/assets/images/flower8.jpg",
       category: "bouquets",
     },
     {
@@ -184,7 +184,7 @@ const ProductsSection = () => {
       name: "Ship Crystal Ball",
       description: "Crystal ball featuring a miniature enchanted garden scene.",
       price: 129.99,
-      image: "/assets/images/crystalball-ship.jpg",
+      image: "/public/assets/images/crystalball-ship.jpg",
       category: "crystals",
     },
     {
@@ -192,7 +192,7 @@ const ProductsSection = () => {
       name: "Ribbon & Crochet Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1399.99,
-      image: "/assets/images/flower9.jpg",
+      image: "/public/assets/images/flower9.jpg",
       category: "bouquets",
     },
     {
@@ -200,7 +200,7 @@ const ProductsSection = () => {
       name: "Satin Ribbon Rose",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 499.99,
-      image: "/assets/images/flower10.jpg",
+      image: "/public/assets/images/flower10.jpg",
       category: "bouquets",
     },
     {
@@ -208,7 +208,7 @@ const ProductsSection = () => {
       name: "Eternal Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1599.99,
-      image: "/assets/images/flower11.jpg",
+      image: "/public/assets/images/flower11.jpg",
       category: "bouquets",
     },
     {
@@ -216,7 +216,7 @@ const ProductsSection = () => {
       name: "Floral Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1799.99,
-      image: "/assets/images/flower12.jpg",
+      image: "/public/assets/images/flower12.jpg",
       category: "bouquets",
     },
     {
@@ -224,7 +224,7 @@ const ProductsSection = () => {
       name: "Ribbon Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1699.99,
-      image: "/assets/images/flower13.jpg",
+      image: "/public/assets/images/flower13.jpg",
       category: "bouquets",
     },
     {
@@ -232,7 +232,7 @@ const ProductsSection = () => {
       name: "Satin Rose Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1899.99,
-      image: "/assets/images/flower14.jpg",
+      image: "/public/assets/images/flower14.jpg",
       category: "bouquets",
     },
     {
@@ -240,7 +240,7 @@ const ProductsSection = () => {
       name: "Handmade Flower Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1999.99,
-      image: "/assets/images/flower15.jpg",
+      image: "/public/assets/images/flower15.jpg",
       category: "bouquets",
     },
     {
@@ -248,7 +248,7 @@ const ProductsSection = () => {
       name: "Blue Roses Round Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1399.99,
-      image: "/assets/images/flower16.jpg",
+      image: "/public/assets/images/flower16.jpg",
       category: "bouquets",
     },
     {
@@ -256,7 +256,7 @@ const ProductsSection = () => {
       name: "Roses Bouquet",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1499.99,
-      image: "/assets/images/flower18.jpg",
+      image: "/public/assets/images/flower18.jpg",
       category: "bouquets",
     },
     {
@@ -264,7 +264,7 @@ const ProductsSection = () => {
       name: "Flowers and Favors",
       description: "A lasting bouquet crafted with preserved flowers.",
       price: 1699.99,
-      image: "/assets/images/flower19.jpg",
+      image: "/public/assets/images/flower19.jpg",
       category: "bouquets",
     },
   ];
