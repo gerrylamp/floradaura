@@ -5,22 +5,21 @@ const Hero = () => {
       {/* Background image */}
         <div className="bg-hero h-dvh w-full">
           <video autoPlay muted loop playsInline className='h-dvh w-full object-cover'>
-            <source src="/assets/videos/bg-hero.mp4" type="video/mp4" />
+            <source src="/assets/videos/bg-hero1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-[black]/70"></div>
         </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="md:w-1/2 py-12">
+        <div className="md:w-3/5 py-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-light text-white leading-tight mb-4">
-            Where <span className="italic text-[#d4af37]">Flowers</span> and{' '}
-            <span className="italic text-[#d4af37]">Crystal</span> Create Magic
+            Where every <span className="italic text-[#d4af37]">Flower</span> {' '}
+            whispers love, and every <span className="italic text-[#d4af37]">Gift</span> tells a story.
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg">
-            Exquisite floral arrangements and enchanting 3D crystal balls,
-            crafted with passion to bring elegance and wonder to your space.
+            Exquisite floral arrangements and enchanting 3D crystal balls — designed to bring elegance, joy, and meaning to life’s most cherished moments.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button href="#products" primary>
