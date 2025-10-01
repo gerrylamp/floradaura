@@ -19,7 +19,7 @@ const Hero = () => {
             whispers love, and every <span className="italic text-[#d4af37]">Gift</span> tells a story.
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg">
-            Exquisite floral arrangements and enchanting 3D crystal balls — designed to bring elegance, joy, and meaning to life’s most cherished moments.
+            Exquisite floral arrangements and enchanting 3D crystal balls — designed to bring elegance, joy, and meaning to life’s most cherished moments in Cebu.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button href="#products" primary>

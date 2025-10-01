@@ -9,7 +9,7 @@ const ContactSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-serif text-[#343a40] mb-4">
-            Get in Touch
+            Contact Flora d’Aura
           </h2>
           <p className="text-lg text-[#5a6268] max-w-2xl mx-auto">
             Have questions or special requests? We'd love to hear from you.
@@ -32,6 +32,13 @@ const ContactSection = () => {
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start">
+                  <MapPinIcon className="w-6 h-6 text-[#d4af37] mr-4 mt-1" />
+                  <div>
+                    <h4 className="font-medium text-[#343a40] mb-1">Location</h4>
+                    <p className="text-[#5a6268]">Cebu, Philippines — serving nationwide via delivery</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
                   <PhoneIcon className="w-6 h-6 text-[#d4af37] mr-4 mt-1" />
                   <div>
                     <h4 className="font-medium text-[#343a40] mb-1">Phone</h4>
@@ -44,8 +51,8 @@ const ContactSection = () => {
                   <MailIcon className="w-6 h-6 text-[#d4af37] mr-4 mt-1" />
                   <div>
                     <h4 className="font-medium text-[#343a40] mb-1">Email</h4>
-                    <a href="mailto:hello@floradaura.com" className="text-[#5a6268]">
-                      hello@floradaura.com
+                    <a href="mailto:cebu.floradaura@gmail.com" className="text-[#5a6268]">
+                      cebu.floradaura@gmail.com
                     </a>
                   </div>
                 </div>
@@ -53,7 +60,7 @@ const ContactSection = () => {
                   <ClockIcon className="w-6 h-6 text-[#d4af37] mr-4 mt-1" />
                   <div>
                     <h4 className="font-medium text-[#343a40] mb-1">Hours</h4>
-                    <p className="text-green-600">Always open online.</p>
+                    <p className="text-[#5a6268]">We accept orders online 24/7. Deliveries available daily.</p>
                   </div>
                 </div>
               </div>
@@ -64,6 +71,7 @@ const ContactSection = () => {
                 <div className="flex space-x-4">
                   <a
                     href="https://www.facebook.com/profile.php?id=61571762714156"
+                    aria-label="Flora d’Aura Facebook"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#5a6268] hover:text-[#d4af37] transition"
@@ -80,6 +88,7 @@ const ContactSection = () => {
                   </a> */}
                   <a
                     href="https://www.tiktok.com/@blossom_bites8"
+                    aria-label="Flora d’Aura TikTok"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#5a6268] hover:text-[#d4af37] transition"

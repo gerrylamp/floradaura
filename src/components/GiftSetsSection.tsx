@@ -5,42 +5,49 @@ import Button from './ui/Button'
 const GiftSetsSection = () => {
   const giftSets = [
     {
-      name: 'Classic Bloom Set',
+      name: 'Classic Bloom Bouquet',
       price: 899,
-      description: 'A fresh bouquet with a touch of elegance.',
+      description:
+        'A timeless bouquet of fresh seasonal flowers, handcrafted to brighten birthdays, anniversaries, or simple “just because” moments.',
       features: [
-        '1 Handcrafted bouquet',
-        'Seasonal fresh flowers',
-        'Free delivery',
+        '1 Handcrafted bouquet with seasonal blooms',
+        'Freshly arranged on the day of delivery',
+        'Free same-day delivery within Cebu City',
+        'Elegant wrapping with ribbon',
       ],
-      buttonText: 'Order Classic Bloom',
+      buttonText: 'Send Classic Bloom',
     },
     {
-      name: 'Bloom + Crystal Gift',
+      name: 'Bouquet + Crystal Keepsake',
       price: 1399,
-      description: 'Our bestseller — flowers with a crystal ball keepsake.',
+      description:
+        'Our best-selling gift set — a premium bouquet paired with a personalized 3D crystal ball keepsake for an unforgettable surprise.',
       features: [
-        '1 Premium bouquet',
-        'Crystal ball (1 included)',
-        'Personalized message card',
-        'Gift packaging',
+        '1 Premium handcrafted bouquet',
+        '1 - 3D crystal ball',
+        'Custom message card included',
+        'Luxury gift packaging',
+        'Free same-day delivery in Cebu',
       ],
-      buttonText: 'Order Bloom + Crystal',
+      buttonText: 'Gift Bouquet + Crystal',
       highlighted: true,
     },
     {
-      name: 'Grand Celebration Set',
+      name: 'Grand Celebration Bundle',
       price: 2499,
-      description: 'The ultimate gift for life’s biggest moments.',
+      description:
+        'The ultimate gift set for weddings, proposals, and milestone celebrations — combining luxury flowers and crystals for a truly memorable moment.',
       features: [
-        '2 Luxury bouquets',
-        '2 Crystal balls',
-        'VIP delivery',
-        'Special gift wrapping',
+        '2 Luxury handcrafted bouquets',
+        '2 - 3D crystal balls',
+        'Priority same-day delivery within Cebu',
+        'Exclusive gift wrapping with premium box',
+        'Free personalized message cards',
       ],
-      buttonText: 'Order Grand Celebration',
+      buttonText: 'Celebrate Grandly',
     },
   ]
+
 
   return (
     <section id="gift-sets" className="py-20 bg-[#f9f5f6]">
@@ -48,10 +55,10 @@ const GiftSetsSection = () => {
         <div className="text-center mb-16">
           <GiftIcon className="mx-auto text-[#d4af37] mb-4" size={40} />
           <h2 className="text-3xl md:text-4xl font-serif text-[#343a40] mb-4">
-            One-Time Gift Sets
+            Curated Gift Sets for Every Occasion
           </h2>
           <p className="text-lg text-[#5a6268] max-w-2xl mx-auto">
-            Perfect for birthdays, anniversaries, and special surprises.
+            Thoughtfully designed flower bouquets and 3D crystal gifts — perfect for birthdays, anniversaries, romantic surprises, or simply showing you care in Cebu.
           </p>
         </div>
 

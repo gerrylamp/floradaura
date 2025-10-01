@@ -145,10 +145,10 @@ const ReviewsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-serif text-[#343a40] mb-4">
-            Client Testimonials
+            What Our Happy Clients Say
           </h2>
-          <p className="text-lg text-[#5a6268] max-w-2xl mx-auto">
-            Discover what our clients say about their Flora d'Aura experience
+          <p className="text-lg text-[#5a6268] max-w-3xl mx-auto">
+            From elegant flower bouquets to personalized crystal gifts, discover how Flora d’Aura has made birthdays, anniversaries, and special occasions unforgettable for our clients in Cebu 
           </p>
         </div>
         <div className="relative">

@@ -44,32 +44,32 @@ const AboutSection = () => {
             <div className="w-16 h-16 bg-[#f8d7da]/40 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🌸</span>
             </div>
-            <h3 className="text-xl font-serif text-[#343a40] mb-3">Artistry</h3>
+            <h3 className="text-xl font-serif text-[#343a40] mb-3">Artistry in Every Bouquet</h3>
             <p className="text-[#5a6268]">
-              We approach each creation as a unique work of art, blending
-              creativity with technical skill.
+              Each flower arrangement is designed as a unique work of art — blending creativity, elegance, and 
+              meaning to capture life’s most cherished moments.
             </p>
           </div>
+
           <div className="p-6">
             <div className="w-16 h-16 bg-[#d1e7dd]/40 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">✨</span>
             </div>
-            <h3 className="text-xl font-serif text-[#343a40] mb-3">Quality</h3>
+            <h3 className="text-xl font-serif text-[#343a40] mb-3">Premium Quality</h3>
             <p className="text-[#5a6268]">
-              We use only premium materials and maintain exacting standards in
-              every piece we create.
+              From fresh flowers to 3D crystal gifts, we use only premium materials to ensure lasting beauty and 
+              unforgettable surprises for birthdays, anniversaries, and weddings.
             </p>
           </div>
+
           <div className="p-6">
             <div className="w-16 h-16 bg-[#d4af37]/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🔮</span>
             </div>
-            <h3 className="text-xl font-serif text-[#343a40] mb-3">
-              Innovation
-            </h3>
+            <h3 className="text-xl font-serif text-[#343a40] mb-3">Innovative & Personal</h3>
             <p className="text-[#5a6268]">
-              We continuously explore new techniques and designs, pushing the
-              boundaries of our craft.
+              We bring innovation to traditional gifting with customizable bouquets and enchanting crystal ball keepsakes, 
+              proudly crafted in Cebu for your most special occasions.
             </p>
           </div>
         </div>
